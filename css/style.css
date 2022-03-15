@@ -1,0 +1,15 @@
+body{
+    box-sizing: border-box;
+    width: 1440px;
+    height: 1700px;
+    background-color: #e8e8e8;
+}
+
+.bg-wrapper{
+    width: 1190px;
+    height: 1064px;
+    opacity: 0.24;
+    margin: 106px 142px;
+    background-image: url("../img/ellipse_1_copy_4.png");
+}
+
