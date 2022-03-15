@@ -1,15 +1,455 @@
-body{
+body {
     box-sizing: border-box;
-    width: 1440px;
-    height: 1700px;
-    background-color: #e8e8e8;
 }
-
-.bg-wrapper{
-    width: 1190px;
-    height: 1064px;
-    opacity: 0.24;
-    margin: 106px 142px;
-    background-image: url("../img/ellipse_1_copy_4.png");
+.header_wrapper {
+    width: 1145px;
+    height: 88px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.nav {
+    width: 705px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_link {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-decoration: none;
+    color: #2f3f54;
+}
+.buying {
+    height: 923px;
+    background-image: url("../img/main_background.jpg");
+}
+.buying_wrapper {
+    width: 1145px;
+    margin: 0 auto;
+    padding-top: 165px;
+    display: flex;
+}
+.buying_text {
+    margin-right: 46px;
+}
+.small_text {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+h1 {
+    font-family: Roboto;
+    width: 550px;
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 18px;
+    margin-bottom: 23px;
+}
+.price_text {
+    font-family: Lato;
+    font-size: 19px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.buying_advantages {
+    margin: 50px 0;
+    display: flex;
+}
+.buying_advantages_checkboxes {
+    position: absolute;
+}
+.buying_advantages_text {
+    margin-left: 25px;
+    margin-top: -8px;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.buy {
+    display: block;
+    width: 224px;
+    height: 47px;
+    border: 3px solid #ffffff;
+    border-radius: 23.5px;
+    text-align: center;
+    line-height: 47px;
 
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+
+    margin-bottom: 18px;
+}
+.buying_picture {
+    margin-top: 45px;
+    position: relative;
+}
+.superman {
+}
+.price_circle {
+    width: 229px;
+    height: 229px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.price_circle .small_text{
+    color: #212121;
+}
+.big_price {
+    text-align: center;
+    font-family: Roboto;  
+    font-size: 54px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #212121;
+}
+.price_circle > :first-child{
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+.price_circle > :last-child{
+    margin-top: 10px;
+    margin-left: 135px;
+}
+h2{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #2f3f54;
+}
+.tarifs {
+}
+.tarifs_wrapper {
+}
+.tarfs_title {
+    margin-top: 155px;
+    margin-bottom: 40px;
+}
+.dark_blue {
+    color: #2575e7;
+}
+.tarifs .small_text{
+    text-align: center;
+    color: #4a6385;
+}
+.orange {
+    color: #e74c3c;
+}
+.dot{
+    color: #212121;
+}
+.green {
+    color: #42d6c1;
+}
+.tarif_cards_box {
+    width: 1145px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 125px;
+}
+.tarif_card {
+    width: 360px;
+    background-color: #ffffff;
+    box-shadow: 0px 21px 49px 1px rgba(41,44,61,0.15);
+    position: relative;
+    overflow: hidden;
+}
+.oval {
+    background-color: #267ae9;
+    width: 360px;
+    height: 661px;
+    border-radius: 50%;
+    position: absolute;
+    top: -561px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.card_img { 
+    position: relative;
+    width: 157px;
+    height: 123px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.arrows {
+    position: absolute;
+    opacity: 0.5;
+    z-index: 1;
+
+}
+.card_icon {
+    z-index: 2;
+}
+.tarif_price {
+    margin-bottom: 45px;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+.euro {
+    font-size: 22.7px;
+    font-weight: 700;
+}
+.euro_num {
+    font-size: 32.9px;
+    font-weight: 700;
+}
+.tarif_text{
+    margin-left: 50px;
+}
+.tarif_name {
+    font-family: Roboto;
+    font-size: 31.3px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #267ae9;
+    margin-top: 45px;
+}
+.tarif_text .small_text{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+.tarif_properties {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    color: #4a6385;
+}
+.check {
+    width: 15px;
+    margin-right: 15px;
+}
+.buy_tarif {
+    margin-top: 75px;
+    display: block;
+    width: 360px;
+    height: 60px;
+    background-color: #267ae9;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 17.2px;
+    line-height: 60px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    text-align: center;
+}
+.reviews{
+    padding-top: 123px;
+    background-color: #fafafa;
+    position: relative;
+}
+.review_title{
+    margin-bottom: 165px;
+}
+.blue1{
+    color: #267ae9;
+    font-weight: 700;
+}
+.review_cards{
+    width: 1235px;
+    margin: 0 auto;
+}
+.slider{
+}
+.slider_item{
+    width: 524px;
+    height: 347px;
+    background-color: #ffffff;
+    box-shadow: 0px 21px 49px 1px rgba(41,44,61,0.15);
+    display: flex;
+}
+.slider_item{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.avatar_box{
+    width: 193px;
+    height: 347px;
+    background-color: #267ae9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatar{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;  
+}   
+.review_text_box{
+   width: 330px;
+}
+.review_text{
+    width: 240px;
+    margin: 0 auto;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #4a6385;
+    margin-top: 70px;
+}
+.review_author{
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: 400;
+    color: #2f3f54;
+}
+.companies {
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.companies_img{
+  width: 1103px;
+}
+.footer{
+    height: 508px;
+    background-image: url("../img/footer_background.jpg");
+    padding-top: 90px;
+}
+.footer_wrapper {
+    width: 1150px;
+    margin: 0 auto;
+    display: flex;
+}
+.product {
+    margin-right: 70px;
+}
+.footer_logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.logo_img {
+    margin-right: 10px;
+}
+.logo_name {
+    font-family: Roboto;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #d0e4ff;
+}
+.product_discription {
+    font-family: Lato;
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #718db2;
+    width: 245px;
+}
+.footer_links_box {
+    margin-right: 135px;
+}
+.footer_title {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #d0e4ff;
+    margin-bottom: 35px;
+}
+.footer_links{
+    font-family: Lato;
+    font-size: 13px;
+    line-height: 31px;
+    font-weight: 400;
+}
+.footer_links a{
+    text-decoration: none;
+    color: #718db2;
+}
+form{
+    display:flex;
+    flex-direction: column;
+}
+.input {
+    background: none;
+    width: 270px;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    font-family: Lato;
+    font-size: 11px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #718db2;
+}
+.message {
+    background: none;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 270px;
+    height: 86px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    font-family: Lato;
+    font-size: 11px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #718db2;
+    resize: none;
+}
+::placeholder{
+    font-family: Lato;
+    font-size: 11px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #718db2;
+}
+.input:focus, .message:focus{
+    outline: none;
+}
+.send {
+    width: 60px;
+    height: 34px;
+    background-color: #2575e7;
+    border: none;
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ffffff;
+}

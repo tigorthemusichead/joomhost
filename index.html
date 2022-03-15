@@ -6,29 +6,300 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Task2</title>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Task5</title>
 </head>
 <body>
-    <div class="bg_wrapper">
-        <h1 class="upper header">Travel</h1>
-        <h2 class="name">Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum.</h2>
-        <div class="img_wrapper">
-            <img src="img/light_man_copy_26.jpg" alt="image is loading..." class="image">
+    <header class="header">
+        <div class="header_wrapper">
+            <a class="logo" href="#">
+                <img src="img/Logo.png" alt="JOOMHOST">
+            </a>
+            <nav class="nav">
+                <a href="#" class="nav_link">HOME</a>
+                <a href="#" class="nav_link">ABOUT US</a>
+                <a href="#" class="nav_link">WHMCS-BRIDGE</a>
+                <a href="#" class="nav_link">HOSTING</a>
+                <a href="#" class="nav_link">PAGES</a>
+                <a href="#" class="nav_link">BLOG</a>
+                <a href="#" class="nav_link">CONTACT US</a>
+            </nav>
         </div>
-            <p class="text">Donec aredsed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla.</p>
-    </div>
-    <div class="wrapper"></div>
-            <p class="text">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
-            <ul class="checklist">
-                <li class="list_item info">Put on this page information about your product</li>
-                <li class="list_item description">A detailed description of your product</li>
-                <li class="list_item advantages">Tell us about the advantages and merits</li>
-                <li class="list_item payment">Associate the page with the payment system</li>
-            </ul>
-            <div class="next">
-                <span class="upper">Full Story</span>
-                <img src="img/shape_2_9.png" alt="->">
+    </header>
+    <main class="main">
+        <section class="buying">
+            <div class="buying_wrapper">
+                <div class="buying_text">
+                    <p class="small_text">
+                        Simple – Easy to use – 10x faster!
+                    </p>
+                    <h1>The Best Web Hosting</h1>
+                    <p class="price_text">
+                        Starting at $7.99 $3.95/month*
+                    </p>
+                    <p class="small_text">
+                        Enter your website to see how we can help your business grow ...
+                    </p>
+                    <div class="buying_advantages">
+                        <img src="img/checkboxes.png" alt="" class="buying_advantages_checkboxes">
+                        <p class="buying_advantages_text">
+                            FREE Domain<br>FREE Site Builders<br>1-Click <img src="img/wordpress.png" alt="(W)"> WordPress Install<br>24/7 Support
+                        </p>
+                    </div>
+                    <a href="#" class="buy">
+                        Get Started Now!
+                    </a>
+                    <p class="small_text">
+                        *Special intro offer and 30-day money-back guarantee
+                    </p>
+                </div>
+                <div class="buying_picture">
+                    <img src="img/Superman.png" alt="" class="superman">
+                    <div class="price_circle">
+                        <p class="small_text">
+                            Starting at
+                        </p>
+                        <p class="big_price">
+                            $7.99
+                        </p>
+                        <p class="small_text">
+                            /month
+                        </p>
+                    </div>
+                </div>
             </div>
-    </div>
+        </section>
+        <section class="tarifs">
+            <div class="tarifs_wrapper">
+                <h2 class="tarfs_title">
+                    Pay for what you <span class="dark_blue">actually</span> use. No hidden charge!
+                </h2>
+                <p class="small_text">
+                    SEO WP built using Live Composer — a front-end page builder for <span class="orange">WordPress</span><span class="dot">.</span> Live Composer is<br>a new generation of the <span class="orange">visual editors</span> for your website. Using simple drag and drop interface<br>you can create any page layout. <span class="green">No coding skills required</span>
+                </p>
+            </div>
+            <div class="tarif_cards_box">
+                <div class="tarif_card">
+                    <div class="oval">
+                        <p class="tarif_price">
+                            <span class="euro">€</span><span class="euro_num">190</span>/mo
+                        </p>
+                    </div>
+
+                    <div class="card_img">
+                        <img src="img/card_arrows.jpg" class="arrows">
+                        <img src="img/card_icon1.png" class="card_icon">
+                    </div>
+                    <div class="tarif_text">
+                        <h3 class="tarif_name">
+                            Personal
+                        </h3>
+                        <p class="small_text">
+                            I think your best bet would be to start or join<br>a startup. That’s been a reliable way to get<br>rich for hundreds of years.
+                        </p>
+                        <p class="tarif_properties">
+                            <img src="img/check.png" class="check">  10GB Space<br>
+                            <img src="img/check.png" class="check">  1 Free Domain<br>
+                            <img src="img/check.png" class="check">  300GB SSD Disk<br>
+                            <img src="img/check.png" class="check">  Custom domain
+                        </p>
+                    </div>
+                    <a href="#" class="buy_tarif">Get Started Now</a>
+                </div>
+                <div class="tarif_card">
+                    <div class="oval">
+                        <p class="tarif_price">
+                            <span class="euro">€</span><span class="euro_num">499</span>/mo
+                        </p>
+                    </div>
+                    <div class="card_img">
+                        <img src="img/card_arrows.jpg" class="arrows">
+                        <img src="img/card_icon2.png" class="card_icon">
+                    </div>
+                    <div class="tarif_text">
+                        <h3 class="tarif_name">
+                            Enterprise
+                        </h3>
+                        <p class="small_text">
+                            I think your best bet would be to start or join a startup. That’s been a reliable way to get rich for hundreds of years.
+                        </p>
+                        <p class="tarif_properties">
+                            <img src="img/check.png" class="check">  10GB Space<br>
+                            <img src="img/check.png" class="check">  1 Free Domain<br>
+                            <img src="img/check.png" class="check">  300GB SSD Disk<br>
+                            <img src="img/check.png" class="check">  Custom domain
+                        </p>
+                    </div>
+                    <a href="#" class="buy_tarif">Get Started Now</a>
+                </div>
+                <div class="tarif_card">
+                    <div class="oval">
+                        <p class="tarif_price">
+                            <span class="euro">€</span><span class="euro_num">999</span>/mo
+                        </p>
+                    </div>
+                    <div class="card_img">
+                        <img src="img/card_arrows.jpg" class="arrows">
+                        <img src="img/card_icon1.png" class="card_icon">
+                    </div>
+                    <div class="tarif_text">
+                        <h3 class="tarif_name">
+                            Business
+                        </h3>
+                        <p class="small_text">
+                            I think your best bet would be to start or join a startup. That’s been a reliable way to get rich for hundreds of years.
+                        </p>
+                        <p class="tarif_properties">
+                            <img src="img/check.png" class="check">  10GB Space<br>
+                            <img src="img/check.png" class="check">  1 Free Domain<br>
+                            <img src="img/check.png" class="check">  300GB SSD Disk<br>
+                            <img src="img/check.png" class="check">  Custom domain
+                        </p>
+                    </div>
+                    <a href="#" class="buy_tarif">Get Started Now</a>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <h2 class="review_title">What <span class="blue1">People</span> Say About Us</h2>
+            <div class="review_cards">
+                <div class="slider">
+                    <div>
+                        <div class="slider_item">
+                            <div class="avatar_box">
+                                <img class="avatar" src="img/cap.jpg">
+                            </div>
+                            <div class="review_text_box">
+                                <p class="review_text">
+                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                                </p>
+                                <p class="review_author"><span class="blue1">Capitan America</span> - unemployed</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider_item">
+                            <div class="avatar_box">
+                                <img class="avatar" src="img/tony.jpg">
+                            </div>
+                            <div class="review_text_box">
+                                <p class="review_text">
+                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                                </p>
+                                <p class="review_author"><span class="blue1">Tony Stark</span> - CEO Stark Industries</p>
+                            </div> 
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider_item">
+                            <div class="avatar_box">
+                                <img class="avatar" src="img/cap.jpg">
+                            </div>
+                            <div class="review_text_box">
+                                <p class="review_text">
+                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                                </p>
+                                <p class="review_author"><span class="blue1">Capitan America</span> - unemployed</p>
+                            </div> 
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider_item">
+                            <div class="avatar_box">
+                                <img class="avatar" src="img/tony.jpg">
+                            </div>
+                            <div class="review_text_box">
+                                <p class="review_text">
+                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                                </p>
+                                <p class="review_author"><span class="blue1">Tony Stark</span> - CEO Stark Industries</p>
+                            </div> 
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider_item">
+                            <div class="avatar_box">
+                                <img class="avatar" src="img/cap.jpg">
+                            </div>
+                            <div class="review_text_box">
+                                <p class="review_text">
+                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                                </p>
+                                <p class="review_author"><span class="blue1">Capitan America</span> - unemployed</p>
+                            </div> 
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider_item">
+                            <div class="avatar_box">
+                                <img class="avatar" src="img/tony.jpg">
+                            </div>
+                            <div class="review_text_box">
+                                <p class="review_text">
+                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                                </p>
+                                <p class="review_author"><span class="blue1">Tony Stark</span> - CEO Stark Industries</p>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="companies">
+            <img src="img/companies.jpg" class="companies_img">
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer_wrapper">
+            <div class="product">
+                <div class="footer_logo">
+                    <img class="logo_img" src="img/logo_item.png">
+                    <p class="logo_name">JoomHost</p>
+                </div>
+                <p class="product_discription">
+                    Hosting Website Builder is a big library of<br>pre-designed web elements which help you<br>create website in few minutes.
+                </p>
+            </div>
+            <div class="footer_links_box">
+                <h3 class="footer_title">Knowledge Base</h3>
+                <p class="footer_links">
+                    <a href="#">Tutorials</a><br>
+                    <a href="#">Get Paid to Write</a><br>
+                    <a href="#">Questions</a><br>
+                    <a href="#">Meetups</a><br>
+                    <a href="#">Referral Program</a><br>
+                    <a href="#">Shop</a><br>
+                    <a href="#">Droplets for Demos</a>
+                </p>
+            </div>
+            <div class="footer_links_box">
+                <h3 class="footer_title">Company</h3>
+                <p class="footer_links">
+                    <a href="#">Hosting.com Blog</a><br>
+                    <a href="#">About Us</a><br>
+                    <a href="#">Contact Us</a><br>
+                    <a href="#">Terms & Conditions</a><br>
+                    <a href="#">Affiliate Terms & Conditions</a><br>
+                    <a href="#">Privacy Policy</a>
+                </p>
+            </div>
+            <div class="footer_links">
+                <h3 class="footer_title">Quick Contact</h3>
+                <form action="#" method="post">
+                    <input type="text" name="name" class="input" tabindex="1" placeholder="Name">
+                    <input type="email" name="email" class="input" tabindex="2" placeholder="Email Adress">
+                    <input type="text" name="subject" class="input" tabindex="3" placeholder="Subject">
+                    <textarea class="message" name="Message" tabindex="4" placeholder="Message"></textarea>
+                    <button class="send" type="submit">SEND</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
